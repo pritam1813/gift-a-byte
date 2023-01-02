@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftAByte</title>
+    <link href="assets/css/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf">
+    <link rel="stylesheet" href="assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf">
+    <link rel="stylesheet" href="assets/fonts/Roboto/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="assets/fonts/East_Sea_Dokdo/EastSeaDokdo-Regular.ttf">
+</head>
+<body>
+    <!-- Navbar Menu -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mx-2">
+          <a id="brnd" class="navbar-brand" href="#"><img src="assets/images/hamburger.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Gift-A-Byte</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+              <a class="nav-link" href="About.html">About</a>
+              <a class="nav-link" href="Contact.html">Contact</a>
+              <form class="container-fluid mt-1">
+                <!-- <button class="btn btn-outline-success me-2" type="button">Main button</button> -->
+                <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                <button class="btn btn-sm btn-outline-secondary" type="button" data-bs-toggle="modal" data-bs-target="#SignUpmodal">Sign Up</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <h1>Contact Us</h1>
+
+
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+        <div class="row">
+            <div class="col">
+              Column
+            </div>
+            <div class="col">
+              Column
+            </div>
+            <div class="col">
+              Column
+            </div>
+          </div>
+      </div>
+
+
+      <!-- Modal Login-->
+      <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="LoginModalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="LoginInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="LoginInputEmail1">
+                </div>
+                <div class="mb-3">
+                  <label for="LoginInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="LoginInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="LoginCheck1">
+                  <label class="form-check-label" for="LoginCheck1">Remember Me</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <p>Don't Have An Account?</p>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#SignUpmodal">Signup</button>
+              <button type="button" class="btn btn-primary">Log In</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal Signup-->
+      <div class="modal fade" id="SignUpmodal" tabindex="-1" aria-labelledby="SignUpmodalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="SignUpmodalLabel">Login</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                  <label for="Address" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="Address">
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone No.</label>
+                  <input type="number" class="form-control" id="phone">
+                </div>
+                <div class="mb-3">
+                  <label for="SignUpInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="SignUpInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="SignUpInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="SignUpInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="SignUpCheck1">
+                  <label class="form-check-label" for="SignUpCheck1">Remember Me</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <p>Already Have An Account?</p>
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+              <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/css/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
