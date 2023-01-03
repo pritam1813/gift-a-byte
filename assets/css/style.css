@@ -68,5 +68,21 @@
 
 #brnd{
     font-size: 1.6rem;
-    font-family: 'Roboto';
+    font-family: 'Rubik Bubbles', cursive;
+    color: darksalmon;
+}
+
+/*################ Carousel ##################*/
+
+.set-img-height{
+    max-height: 800px;
+}
+
+.carousel-caption-height{
+    background: rgba(0, 0, 0, 0.38);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.6px);
+    -webkit-backdrop-filter: blur(7.6px);
+    border: 1px solid rgba(0, 0, 0, 0.11);
 }
