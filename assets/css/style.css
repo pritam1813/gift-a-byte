@@ -75,6 +75,7 @@
 /*################ Carousel ##################*/
 
 .set-img-height{
+    height: 720px;
     max-height: 800px;
 }
 
@@ -85,4 +86,10 @@
     backdrop-filter: blur(6.7px);
     -webkit-backdrop-filter: blur(6.7px);
     border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+
+#smpcont{
+    width: 80%;
+    border: 2px solid black;
 }
